@@ -82,10 +82,15 @@ query FilterPairs(
         networkId
         symbol
         info {
+          imageThumbUrl
           imageSmallUrl
+          imageLargeUrl
           circulatingSupply
           totalSupply
         }
+        createdAt
+        createBlockNumber
+        createTransactionHash
       }
       token1 {
         address
@@ -94,10 +99,15 @@ query FilterPairs(
         networkId
         symbol
         info {
+          imageThumbUrl
           imageSmallUrl
+          imageLargeUrl
           circulatingSupply
           totalSupply
         }
+        createdAt
+        createBlockNumber
+        createTransactionHash
       }
       exchange {
         address

@@ -91,6 +91,9 @@ query FilterTokens(
           circulatingSupply
           totalSupply
         }
+        createdAt
+        createBlockNumber
+        createTransactionHash
       }
     }
   }
